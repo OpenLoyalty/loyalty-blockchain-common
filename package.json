@@ -1,6 +1,6 @@
 {
     "name": "loyalty-blockchain-common",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Loyalty Blockchain asset type definitions and common contracts",
     "main": "index.js",
     "engines": {
@@ -32,7 +32,7 @@
       "prettier": "^2.4.1"
     },
     "bugs": {
-      "url": "https://gitlab.com/openloyalty/blockchain/loyalty-blockchain-common/issues/"
+      "url": "https://github.com/OpenLoyalty/loyalty-blockchain-common/issues"
     },
-    "homepage": "https://gitlab.com/openloyalty/blockchain/loyalty-blockchain-common/"
+    "homepage": "https://github.com/OpenLoyalty/loyalty-blockchain-common"
 }
