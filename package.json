@@ -1,38 +1,48 @@
 {
-    "name": "loyalty-blockchain-common",
-    "version": "1.0.2",
-    "description": "Loyalty Blockchain asset type definitions and common contracts",
-    "main": "index.js",
-    "engines": {
-        "node": ">=18.16",
-        "npm": ">=9"
-    },
-    "scripts": {
-        "lint": "eslint .",
-        "pretest": "npm run lint",
-        "test": "nyc mocha --recursive",
-        "build": "",
-        "start": ""
-    },
-    "engineStrict": false,
-    "author": "Open Loyalty",
-    "license": "Apache-2.0",
-    "private": false,
-    "dependencies": {
-        "fabric-contract-api": "^2.5.4",
-        "fabric-shim-api": "^2.5.4",
-        "sort-keys-recursive": "^2.0.0"
-    },
-    "devDependencies": {
-      "eslint": "^8.44.0",
-      "eslint-config-airbnb-base": "^15.0.0",
-      "eslint-config-prettier": "^8.3.0",
-      "eslint-plugin-import": "^2.27.5",
-      "eslint-plugin-prettier": "^4.2.1",
-      "prettier": "^2.4.1"
-    },
-    "bugs": {
-      "url": "https://github.com/OpenLoyalty/loyalty-blockchain-common/issues"
-    },
-    "homepage": "https://github.com/OpenLoyalty/loyalty-blockchain-common"
+  "name": "loyalty-blockchain-common",
+  "version": "1.0.3",
+  "description": "Loyalty Blockchain asset type definitions and common contracts",
+  "main": "index.js",
+  "author": "Open Loyalty",
+  "license": "Apache-2.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenLoyalty/loyalty-blockchain-common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenLoyalty/loyalty-blockchain-common/issues"
+  },
+  "homepage": "https://www.openloyalty.io/",
+  "engineStrict": false,
+  "engines": {
+    "node": ">=18.16",
+    "npm": ">=9"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "build": "",
+    "start": ""
+  },
+  "keywords": [
+    "node",
+    "hyperledger",
+    "fabric",
+    "loyalty",
+    "blockchain"
+  ],
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim-api": "^2.5.4",
+    "sort-keys-recursive": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.4.1"
+  }
 }
