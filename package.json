@@ -1,6 +1,6 @@
 {
   "name": "loyalty-blockchain-common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Loyalty Blockchain asset type definitions and common contracts",
   "main": "index.js",
   "author": "Open Loyalty",

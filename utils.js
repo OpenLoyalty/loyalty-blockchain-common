@@ -51,9 +51,10 @@ const getEnumKey = (enumType, value) =>
  * @returns {number} - The transaction timestamp in seconds
  */
 const getTxTimestampSeconds = (ctx) => {
-  const timestampSeconds = ctx.stub.getTxTimestamp().array[0];
-  console.log(`Timestamp in seconds: ${timestampSeconds}`);
-  return timestampSeconds;
+  const dateTimestamp = ctx.stub.getDateTimestamp();
+  const secondsSinceEpoch = Math.floor(dateTimestamp.getTime() / 1000);
+  console.log(`Timestamp date: ${dateTimestamp}, in seconds: ${secondsSinceEpoch}`);
+  return secondsSinceEpoch;
 };
 
 /**
