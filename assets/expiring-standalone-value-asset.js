@@ -1,4 +1,4 @@
-const { sortKeysRecursive } = require('sort-keys-recursive');
+const sortKeysRecursive = require('sort-keys-recursive');
 const { StandaloneValueAsset } = require('./standalone-value-asset');
 const { AssetState } = require('./types');
 
