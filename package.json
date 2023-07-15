@@ -1,6 +1,6 @@
 {
   "name": "loyalty-blockchain-common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Loyalty Blockchain asset type definitions and common contracts",
   "main": "index.js",
   "author": "Open Loyalty",
@@ -21,7 +21,9 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run lint",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --write **/*.js",
     "build": "",
     "start": ""
   },
@@ -34,7 +36,7 @@
   ],
   "dependencies": {
     "fabric-contract-api": "^2.5.4",
-    "fabric-shim-api": "^2.5.4",
+    "fabric-shim": "^2.5.4",
     "sort-keys-recursive": "^2.0.0"
   },
   "devDependencies": {

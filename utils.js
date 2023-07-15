@@ -50,7 +50,11 @@ const getEnumKey = (enumType, value) =>
  * @param {Context} ctx - The transaction context
  * @returns {number} - The transaction timestamp in seconds
  */
-const getTxTimestampSeconds = (ctx) => ctx.stub.getTxTimestamp().array[0];
+const getTxTimestampSeconds = (ctx) => {
+  const timestampSeconds = ctx.stub.getTxTimestamp().array[0];
+  console.log(`Timestamp in seconds: ${timestampSeconds}`);
+  return timestampSeconds;
+};
 
 /**
  * Wraps the payload into an event object with transaction information.
